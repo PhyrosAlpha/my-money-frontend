@@ -1,5 +1,5 @@
-import Login from "../../components/login/login";
-import Main from "../../components/structure/main/main";
+import Login from "../../components/Login/Login";
+import Main from "../../components/ui/Structure/Main/Main";
 
 const LoginPage = (props) => {
 

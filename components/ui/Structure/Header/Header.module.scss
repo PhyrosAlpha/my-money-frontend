@@ -1,0 +1,54 @@
+@import "../../../../styles/abstract/base";
+
+.header {
+    background-color: $primary;
+    //min-height: 12rem; //80px
+}
+
+.headerFlex {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+
+.nav {
+    align-items: center;
+    background-color: $quaternary;
+    display: flex;
+    min-height: 3rem; //40px
+    justify-content: center;
+}
+
+.navCenter {
+    width: $width-center;
+}
+
+.headerCenter{
+    align-items: center;
+    display: flex;
+    width: $width-center;
+    min-height: 6rem;
+}
+
+.logoBox {
+    align-items: center;
+    background-color: $background;
+    border-radius: 10px;
+    display: flex;
+    height: 80%;
+    justify-content: space-around;
+    width: 14rem; //224px
+
+    i {
+        color: $primary;
+        font-size: 3rem; //48px
+    }
+
+    h1 {
+        font-family: 'Candara';
+        font-size: 26px;
+        color: $primary;
+    }
+
+}
+
