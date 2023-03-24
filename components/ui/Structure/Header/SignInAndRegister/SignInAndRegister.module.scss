@@ -1,0 +1,26 @@
+@import '../../../../../styles/abstract/base';
+
+.signInAndRegister {
+    align-items: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+
+    ul {
+        list-style: none;
+        padding: 0 10px;
+
+        li {
+            cursor: pointer;
+        }
+    }
+
+    i {
+        font-size: 40px;
+    }
+
+    span {
+        font-size: 20px;
+    }
+
+}

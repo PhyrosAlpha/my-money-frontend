@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 400px;
+    width: 350px;
     padding:5px;
     border: $secondary-color solid 4px ;
     border-radius: 10px;
@@ -41,7 +41,7 @@
             }
             i {
                 color: $secondary-color;
-                font-size:30px;
+                font-size:20px;
                 cursor: pointer;
                 transition: transform 0.3s;
 

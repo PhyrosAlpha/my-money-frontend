@@ -35,13 +35,13 @@
     background-color: $background;
     border-radius: 10px;
     display: flex;
-    height: 80%;
     justify-content: space-around;
+    padding: 2px 4px;
     width: 14rem; //224px
 
     i {
         color: $primary;
-        font-size: 3rem; //48px
+        font-size: 4rem; //48px
     }
 
     h1 {
