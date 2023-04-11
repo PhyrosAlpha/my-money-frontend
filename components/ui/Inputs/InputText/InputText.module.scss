@@ -1,0 +1,33 @@
+@import "../../../../styles/abstract/base";
+
+.input-text {
+    position: relative;
+    margin-bottom: 20px;
+
+    input {
+        //border: black 1px solid;
+        border: none;
+        font-size: 20px;
+        height: 50px;
+        outline: none;
+        padding: 4px 8px;
+        width: 100%;
+    }
+
+    label {
+        background-color: rgba(255, 255, 255, 0);
+        position: absolute;
+        left:10px;
+        top:30%;
+        transition: all 350ms;
+    }
+
+    i {
+        color:$primary;
+        font-size: 20px;
+        position: absolute;
+        right: 10px;
+        top:30%
+    }
+
+}

@@ -1,0 +1,19 @@
+@import "../../../../styles/abstract/base";
+
+.screen {
+    animation-name: show;
+    animation-duration: 1.5s;
+
+    h2 {
+        color:$primary;
+    }
+}
+
+@keyframes show {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

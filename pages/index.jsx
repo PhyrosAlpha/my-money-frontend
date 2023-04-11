@@ -1,10 +1,14 @@
+import axios from 'axios'
 import Calendar from '../components/ui/DynamicCalendar/Calendar'
-import Container from '../components/ui/layout/Container/Container'
-import Layout from '../components/ui/layout/Layout/Layout'
-import LayoutItem from '../components/ui/layout/Layout/LayoutItem/LayoutItem'
+import Container from '../components/ui/Layout/Container/Container'
+import Layout from '../components/ui/Layout/Layout/Layout'
+import LayoutItem from '../components/ui/Layout/Layout/LayoutItem/LayoutItem'
 import Main from '../components/ui/Structure/Main/Main'
 
-export default function Home() {
+export default function Home({ssrData}) {
+
+	//console.log(document.cookie)
+
   return (
     <Main>
 		<Container breakpoint="sm" >
@@ -27,4 +31,11 @@ export default function Home() {
   )
 }
 
-//              <div className='col-lg-4 col-md-12 col-ms-12'>
+export async function getServerSideProps({req, res}){
+	console.log(Object.keys(req));
+	console.log(req.cookies);
+	return {
+		props:{ssrData:"Hello Honey =D!"}
+	}
+}
+

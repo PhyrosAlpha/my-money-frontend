@@ -1,6 +1,4 @@
 import Head from "next/head"
-import { memo } from "react"
-import Container from "../../layout/Container/Container"
 import Footer from "../Footer/Footer"
 import Header from "../Header/Header"
 import style from "./Main.module.scss"

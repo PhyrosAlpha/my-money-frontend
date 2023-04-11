@@ -1,17 +1,40 @@
+@import '../../styles/abstract/base';
+
 .login {
-    max-width: 25rem;
+    max-width: 30rem;
     width: 100%;
 
     .login-header {
+        background-color: $primary;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        color:white;
+        display: flex;
+        font-size: 25px;
+        justify-content: center;
+        padding: 2px 6px;
+
+        i {
+            margin-right: 10px;
+        }
 
     }
 
     .login-body {
-
+        background-color: $quaternary;
+        min-height: 12rem;
+        padding: 40px 10px;
     }
 
     .login-footer {
+        background-color: $quaternary;
+        padding: 4px 8px;
 
+        p {
+            color: $primary;
+            margin: 0;
+            text-align: end;
+        }
     }
 
 }
